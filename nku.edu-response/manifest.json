@@ -1,0 +1,16 @@
+{
+"name" : "ROBOT HABER",
+"version" : "1.0",
+"manifest_version" : 2,
+"description" : "NKÜ İÇİN EKLENTİM.",
+"browser_action" : {
+                    "default_icon" : "icon.png",
+                    "default_popup" : "window.html"
+                   },
+"icons" : {
+          "16" : "icon_16.png",
+		  "48" : "icon_48.png",
+		  "128": "icon_128.png"
+		  },
+"background" : {"scripts" :["robothaber.js"]}
+}
